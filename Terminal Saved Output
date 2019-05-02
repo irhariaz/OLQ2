@@ -1,0 +1,1162 @@
+Last login: Wed May  1 16:40:01 on ttys000
+Irhas-MacBook-Pro:~ apple$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+Irhas-MacBook-Pro:~ apple$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+Irhas-MacBook-Pro:~ apple$ ls -l
+total 0
+drwxr-xr-x    3 apple  staff    96 Mar 12 18:50 Applications
+drwx------+  24 apple  staff   768 May  1 16:41 Desktop
+drwx------+   9 apple  staff   288 Apr  7 20:53 Documents
+drwx------+ 124 apple  staff  3968 May  1 16:37 Downloads
+drwx------@  63 apple  staff  2016 Mar 29 15:43 Library
+drwx------+   3 apple  staff    96 Jan  1  1970 Movies
+drwx------+   4 apple  staff   128 Jan 27 05:36 Music
+drwx------+   5 apple  staff   160 Mar 21 12:22 Pictures
+drwxr-xr-x+   4 apple  staff   128 Jan  1  1970 Public
+Irhas-MacBook-Pro:~ apple$ cd desktop
+Irhas-MacBook-Pro:desktop apple$ ls
+806
+881
+881 a.pdf
+881 a.xlsx
+881 formulas.docx
+ACST881 ASSIGNMENT 1 IRHA RIAZ
+Documents
+Screen Shot 2019-04-30 at 1.15.17 PM.png
+Screen Shot 2019-05-01 at 4.17.25 PM.png
+Semester 1
+Songs
+Umair SOP .docx
+Unknown.jpg
+carrington
+chapter-11-regex--structure.pdb
+quiz
+tutes.txt
+~$signment 829.docx
+Irhas-MacBook-Pro:desktop apple$ cd desktop
+-bash: cd: desktop: No such file or directory
+Irhas-MacBook-Pro:desktop apple$ ls
+806
+881
+881 a.pdf
+881 a.xlsx
+881 formulas.docx
+ACST881 ASSIGNMENT 1 IRHA RIAZ
+Documents
+Screen Shot 2019-04-30 at 1.15.17 PM.png
+Screen Shot 2019-05-01 at 4.17.25 PM.png
+Semester 1
+Songs
+Umair SOP .docx
+Unknown.jpg
+carrington
+olq2
+quiz
+tutes.txt
+~$signment 829.docx
+Irhas-MacBook-Pro:desktop apple$ scp -i 45557594.pem olq2 ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com:
+Warning: Identity file 45557594.pem not accessible: No such file or directory.
+ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com: Permission denied (publickey).
+lost connection
+Irhas-MacBook-Pro:desktop apple$ scp -i 45557594.pem olq2 ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com:
+Warning: Identity file 45557594.pem not accessible: No such file or directory.
+ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com: Permission denied (publickey).
+lost connection
+Irhas-MacBook-Pro:desktop apple$ ls
+806
+881
+881 a.pdf
+881 a.xlsx
+881 formulas.docx
+ACST881 ASSIGNMENT 1 IRHA RIAZ
+Documents
+Screen Shot 2019-04-30 at 1.15.17 PM.png
+Screen Shot 2019-05-01 at 4.17.25 PM.png
+Semester 1
+Songs
+Umair SOP .docx
+Unknown.jpg
+carrington
+olq2
+quiz
+tutes.txt
+~$signment 829.docx
+Irhas-MacBook-Pro:desktop apple$ ls
+806
+881
+881 a.pdf
+881 a.xlsx
+881 formulas.docx
+ACST881 ASSIGNMENT 1 IRHA RIAZ
+Documents
+Screen Shot 2019-04-30 at 1.15.17 PM.png
+Screen Shot 2019-05-01 at 4.17.25 PM.png
+Semester 1
+Songs
+Umair SOP .docx
+Unknown.jpg
+carrington
+olq2
+quiz
+tutes.txt
+~$signment 829.docx
+Irhas-MacBook-Pro:desktop apple$ cd ..
+Irhas-MacBook-Pro:~ apple$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+Irhas-MacBook-Pro:~ apple$ cd Downloads/
+Irhas-MacBook-Pro:Downloads apple$ ls
+ 45557594RiazIrhaTHQ1-2.pdf
+ 45557594RiazIrhaTHQ1.pdf
+12785539-Riaz-SOC.pdf
+2304121_1_bsbsus501.pdf
+44112432YaxinYuOLQ1.pdf
+45515840VoLeXuanHuongTHQ1.pdf
+45546479SoiUmeshOLQ1.pdf
+45549125MohideenMuhammadAbubucerkthq1.pdf
+890
+ACST 829 45557594.pdf
+ACST890 quiz1.pdf
+ASS1 data.xlsx
+Asfar Riaz Resume - 2018.docx
+Asfar Riaz Resume - 2019.docx
+Assignment -2.docx
+Assignment .docx
+Assignment sahan.xlsx
+Assignment.xlsx
+BSBSUS501A_a3_answers.docx
+Brexit (2019) [WEBRip] [720p] [YTS.AM]
+CEMS final.docx
+CEMS__Motivation_Letter.docx
+CP (1)-compressed.pdf
+CT1 Exam Mapping.xlsx
+Chapter 7 Solutions (7.1-7.33) V18.doc
+Company Profile.docx
+Cover Letter- Cardno.docx
+Cover Letter- NGH Environmental.docx
+Document10.pdf
+Equation 1.R
+FileZilla_3.41.1_macosx-x86_setup_bundled.dmg
+FileZilla_3.41.2_macosx-x86.app.tar.bz2
+GOS-Open-Slide.pptx
+Gap Reference Questionnaire 2018.docx
+GitHub Desktop.app
+Hamburg trial motivation-2.docx
+Hamburg trial motivation.docx
+ID Back.JPG
+ID Front.JPG
+ID.docx
+IMMI Acknowledgement of Application Received-2.pdf
+IMMI Acknowledgement of Application Received.pdf
+IMMI Grant Notification.pdf
+IMMI s257A (s40) Requirement to Provide PIDs-2.pdf
+IMMI s257A (s40) Requirement to Provide PIDs.pdf
+IRHA RIAZ resume-2.pdf
+IRHA RIAZ resume-3.pdf
+IRHA RIAZ resume.pdf
+IRHARIAZ45557594OLQ1.pdf
+KPMG Graduate and vacation positions 2019.pdf
+L01.pptx
+LEC_01_fin_maths_2019-2.pdf
+LEC_01_fin_maths_2019-3.pdf
+LEC_01_fin_maths_2019-4.pdf
+LEC_01_fin_maths_2019.pdf
+MR AHMAD RIAZ.docx
+MRS RIAZ UZMA.docx
+MacShiny.pkg
+Mentor_Position_Description_S2_2019_1.pdf
+New Microsoft Word Document (4).docx
+PERSONAL TAX RATES.xlsx
+PHOTO-2019-03-16-12-55-24.jpg
+Passport first page.png
+Passport.pdf
+Personal_statement.docx
+Player-2.dmg
+Player-3.dmg
+Player.dmg
+Q2 data_v2.xlsx
+Question1.xlsx
+Question2.xlsx
+Question3.xlsx
+Quiz1_ACST890.pdf
+SOP FINAL.docx
+STAT806_R_prac1.doc
+Scan 26 Feb 2019.pdf
+Skype-8.42.0.60.dmg
+Solution1.xlsx
+Solution3.xlsx
+TASK 1.docx
+Travel History-compressed.pdf
+Umair Fazal (Resume).pdf
+WhatsApp Image 2019-03-27 at 10.20.57 AM.jpeg
+WhatsApp Image 2019-03-27 at 10.20.58 AM.jpeg
+WhatsApp Zip 2019-03-30 at 1.01.49 PM.zip
+XYZ11393769106.pdf
+XYZ11393794862.pdf
+YouthCentral_CoverLetter_WorkExperience.rtf
+application.pdf
+ass1_S1_2019_v2_submission instructions.docx
+ass1_S1_2019_v2_submission instructions.pdf
+awscli-bundle
+bank statement-compressed.pdf
+bankstatement
+bond details.xlsx
+brexit.the.uncivil.war.2019.720p.hdtv.x264-mtb_eng-en.srt
+delta project cashflow.xlsx
+final -2.pdf
+final -3.pdf
+final .pdf
+final sop.docx
+git-2.21.0-intel-universal-mavericks.dmg
+install_flash_player_osx.dmg
+jv
+matrix_calculations.xls
+mibas-curriculum-wise-1617.pdf
+passports.rar
+reducing-balance-depreciation-calculator-v-2.0.xlsx
+resume .pdf
+ubuntu-18.04.2-desktop-amd64.iso
+ubuntu-18.04.2-desktop-amd64.iso.download
+ubuntu-18.04.2-live-server-amd64.iso
+view.php-2.html
+view.php-3.html
+view.php.html
+week 5 data files.xlsx
+winzipmacedition65.dmg
+zobia statement (1).docx
+~$signment .docx
+~$w Microsoft Word Document (4).docx
+Irhas-MacBook-Pro:Downloads apple$ cd 890
+Irhas-MacBook-Pro:890 apple$ ls
+45557594.pem			chapter-11-regex--structure.pdb
+Irhas-MacBook-Pro:890 apple$ scp -i 45557594.pem chapter-11-regex--structure.pdb ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com:
+chapter-11-regex--structure.pdb               100% 1140    42.7KB/s   00:00    
+Irhas-MacBook-Pro:890 apple$ ssh -i 45557594.pem ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-1032-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed May  1 06:52:21 UTC 2019
+
+  System load:  0.0               Processes:           92
+  Usage of /:   27.0% of 7.69GB   Users logged in:     1
+  Memory usage: 23%               IP address for eth0: 172.31.24.74
+  Swap usage:   0%
+
+ * Ubuntu's Kubernetes 1.14 distributions can bypass Docker and use containerd
+   directly, see https://bit.ly/ubuntu-containerd or try it now with
+
+     snap install microk8s --classic
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+73 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Wed May  1 06:38:00 2019 from 110.21.43.246
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-24-74:~$ ls
+chapter-11-regex--structure.pdb  dricciardo.txt  tutes.txt
+ubuntu@ip-172-31-24-74:~$ cat chapter-11-regex--structure.pdb 
+HEADER  Hydrogenase                     23-Mar-99   1CFZ
+COMPND  Hydrogenase Maturating Endopeptidase Hybd From
+SOURCE  ORGANISM_SCIENTIFIC: Escherichia coli
+AUTHOR  Fritsche, Paschos, Beisel, Boeck & Huber
+REMARK NCBI PDB FORMAT VERSION 5.0
+SEQRES 1 A  162  MET ARG ILE LEU VAL LEU GLY VAL GLY ASN
+SEQRES 2 A  162  THR ASP GLU ALA ILE GLY VAL ARG ILE VAL
+SEQRES 3 A  162  GLU GLN ARG TYR ILE LEU PRO ASP TYR VAL
+SEQRES 4 A  162  ASP GLY GLY THR ALA GLY MET GLU LEU LEU
+HELIX  1 hel ILE A   18  GLN A   28
+HELIX  2 hel PRO A   92  THR A  107
+HELIX  3 hel ILE A  138  SER A  152
+SHEET  1 str ARG A    2  ASN A  10
+SHEET  2 str ARG A   29  LEU A  32
+SHEET  3 str TYR A   35  THR A  43
+ATOM 1  C   MET A 1 48.865  25.394  51.393  1.00 54.58 C
+ATOM 2  CA  MET A 1 49.879  24.359  50.932  1.00 59.61 C
+ATOM 3  CB  MET A 1 49.248  23.457  49.877  1.00 62.37 C
+ATOM 4  CE  MET A 1 51.349  24.403  47.765  1.00 71.39 C
+ATOM 5  CG  MET A 1 48.708  24.106  48.629  1.00 66.70 C
+ATOM 6  N   MET A 1 50.347  23.578  52.116  1.00 62.03 N
+ATOM 7  O   MET A 1 47.875  25.011  52.020  1.00 54.99 O
+ATOM 8  SD  MET A 1 49.731  23.948  47.163  1.00 77.15 S
+
+ubuntu@ip-172-31-24-74:~$ packet_write_wait: Connection to 13.55.205.38 port 22: Broken pipe
+Irhas-MacBook-Pro:890 apple$ man scp
+Irhas-MacBook-Pro:890 apple$ ssh -i 45557594.pem ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-1032-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed May  1 07:54:19 UTC 2019
+
+  System load:  0.0               Processes:           94
+  Usage of /:   27.0% of 7.69GB   Users logged in:     1
+  Memory usage: 24%               IP address for eth0: 172.31.24.74
+  Swap usage:   0%
+
+ * Ubuntu's Kubernetes 1.14 distributions can bypass Docker and use containerd
+   directly, see https://bit.ly/ubuntu-containerd or try it now with
+
+     snap install microk8s --classic
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+73 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Wed May  1 06:52:22 2019 from 110.21.43.246
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-24-74:~$ ls
+chapter-11-regex--structure.pdb  dricciardo.txt  tutes.txt
+ubuntu@ip-172-31-24-74:~$ packet_write_wait: Connection to 13.55.205.38 port 22: Broken pipe
+Irhas-MacBook-Pro:890 apple$ ssh -i 45557594.pem ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-1032-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed May  1 08:09:41 UTC 2019
+
+  System load:  0.0               Processes:           97
+  Usage of /:   27.0% of 7.69GB   Users logged in:     1
+  Memory usage: 24%               IP address for eth0: 172.31.24.74
+  Swap usage:   0%
+
+ * Ubuntu's Kubernetes 1.14 distributions can bypass Docker and use containerd
+   directly, see https://bit.ly/ubuntu-containerd or try it now with
+
+     snap install microk8s --classic
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+73 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Wed May  1 07:54:19 2019 from 110.21.43.246
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-24-74:~$ ls
+chapter-11-regex--structure.pdb  dricciardo.txt  tutes.txt
+ubuntu@ip-172-31-24-74:~$ cat chapter-11-regex--structure.pdb 
+HEADER  Hydrogenase                     23-Mar-99   1CFZ
+COMPND  Hydrogenase Maturating Endopeptidase Hybd From
+SOURCE  ORGANISM_SCIENTIFIC: Escherichia coli
+AUTHOR  Fritsche, Paschos, Beisel, Boeck & Huber
+REMARK NCBI PDB FORMAT VERSION 5.0
+SEQRES 1 A  162  MET ARG ILE LEU VAL LEU GLY VAL GLY ASN
+SEQRES 2 A  162  THR ASP GLU ALA ILE GLY VAL ARG ILE VAL
+SEQRES 3 A  162  GLU GLN ARG TYR ILE LEU PRO ASP TYR VAL
+SEQRES 4 A  162  ASP GLY GLY THR ALA GLY MET GLU LEU LEU
+HELIX  1 hel ILE A   18  GLN A   28
+HELIX  2 hel PRO A   92  THR A  107
+HELIX  3 hel ILE A  138  SER A  152
+SHEET  1 str ARG A    2  ASN A  10
+SHEET  2 str ARG A   29  LEU A  32
+SHEET  3 str TYR A   35  THR A  43
+ATOM 1  C   MET A 1 48.865  25.394  51.393  1.00 54.58 C
+ATOM 2  CA  MET A 1 49.879  24.359  50.932  1.00 59.61 C
+ATOM 3  CB  MET A 1 49.248  23.457  49.877  1.00 62.37 C
+ATOM 4  CE  MET A 1 51.349  24.403  47.765  1.00 71.39 C
+ATOM 5  CG  MET A 1 48.708  24.106  48.629  1.00 66.70 C
+ATOM 6  N   MET A 1 50.347  23.578  52.116  1.00 62.03 N
+ATOM 7  O   MET A 1 47.875  25.011  52.020  1.00 54.99 O
+ATOM 8  SD  MET A 1 49.731  23.948  47.163  1.00 77.15 S
+
+ubuntu@ip-172-31-24-74:~$ sed 's/Beisel/Weisel/' chapter-11-regex--structure.pdb 
+HEADER  Hydrogenase                     23-Mar-99   1CFZ
+COMPND  Hydrogenase Maturating Endopeptidase Hybd From
+SOURCE  ORGANISM_SCIENTIFIC: Escherichia coli
+AUTHOR  Fritsche, Paschos, Weisel, Boeck & Huber
+REMARK NCBI PDB FORMAT VERSION 5.0
+SEQRES 1 A  162  MET ARG ILE LEU VAL LEU GLY VAL GLY ASN
+SEQRES 2 A  162  THR ASP GLU ALA ILE GLY VAL ARG ILE VAL
+SEQRES 3 A  162  GLU GLN ARG TYR ILE LEU PRO ASP TYR VAL
+SEQRES 4 A  162  ASP GLY GLY THR ALA GLY MET GLU LEU LEU
+HELIX  1 hel ILE A   18  GLN A   28
+HELIX  2 hel PRO A   92  THR A  107
+HELIX  3 hel ILE A  138  SER A  152
+SHEET  1 str ARG A    2  ASN A  10
+SHEET  2 str ARG A   29  LEU A  32
+SHEET  3 str TYR A   35  THR A  43
+ATOM 1  C   MET A 1 48.865  25.394  51.393  1.00 54.58 C
+ATOM 2  CA  MET A 1 49.879  24.359  50.932  1.00 59.61 C
+ATOM 3  CB  MET A 1 49.248  23.457  49.877  1.00 62.37 C
+ATOM 4  CE  MET A 1 51.349  24.403  47.765  1.00 71.39 C
+ATOM 5  CG  MET A 1 48.708  24.106  48.629  1.00 66.70 C
+ATOM 6  N   MET A 1 50.347  23.578  52.116  1.00 62.03 N
+ATOM 7  O   MET A 1 47.875  25.011  52.020  1.00 54.99 O
+ATOM 8  SD  MET A 1 49.731  23.948  47.163  1.00 77.15 S
+
+ubuntu@ip-172-31-24-74:~$ packet_write_wait: Connection to 13.55.205.38 port 22: Broken pipe
+Irhas-MacBook-Pro:890 apple$ ssh -i 45557594.pem ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-1032-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed May  1 08:23:19 UTC 2019
+
+  System load:  0.0               Processes:           100
+  Usage of /:   27.0% of 7.69GB   Users logged in:     1
+  Memory usage: 25%               IP address for eth0: 172.31.24.74
+  Swap usage:   0%
+
+ * Ubuntu's Kubernetes 1.14 distributions can bypass Docker and use containerd
+   directly, see https://bit.ly/ubuntu-containerd or try it now with
+
+     snap install microk8s --classic
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+73 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Wed May  1 08:09:42 2019 from 110.21.43.246
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb | sed '1,3d'
+     4	AUTHOR  Fritsche, Paschos, Beisel, Boeck & Huber
+     5	REMARK NCBI PDB FORMAT VERSION 5.0
+     6	SEQRES 1 A  162  MET ARG ILE LEU VAL LEU GLY VAL GLY ASN
+     7	SEQRES 2 A  162  THR ASP GLU ALA ILE GLY VAL ARG ILE VAL
+     8	SEQRES 3 A  162  GLU GLN ARG TYR ILE LEU PRO ASP TYR VAL
+     9	SEQRES 4 A  162  ASP GLY GLY THR ALA GLY MET GLU LEU LEU
+    10	HELIX  1 hel ILE A   18  GLN A   28
+    11	HELIX  2 hel PRO A   92  THR A  107
+    12	HELIX  3 hel ILE A  138  SER A  152
+    13	SHEET  1 str ARG A    2  ASN A  10
+    14	SHEET  2 str ARG A   29  LEU A  32
+    15	SHEET  3 str TYR A   35  THR A  43
+    16	ATOM 1  C   MET A 1 48.865  25.394  51.393  1.00 54.58 C
+    17	ATOM 2  CA  MET A 1 49.879  24.359  50.932  1.00 59.61 C
+    18	ATOM 3  CB  MET A 1 49.248  23.457  49.877  1.00 62.37 C
+    19	ATOM 4  CE  MET A 1 51.349  24.403  47.765  1.00 71.39 C
+    20	ATOM 5  CG  MET A 1 48.708  24.106  48.629  1.00 66.70 C
+    21	ATOM 6  N   MET A 1 50.347  23.578  52.116  1.00 62.03 N
+    22	ATOM 7  O   MET A 1 47.875  25.011  52.020  1.00 54.99 O
+    23	ATOM 8  SD  MET A 1 49.731  23.948  47.163  1.00 77.15 S
+       
+ubuntu@ip-172-31-24-74:~$ packet_write_wait: Connection to 13.55.205.38 port 22: Broken pipe
+Irhas-MacBook-Pro:890 apple$ ssh -i 45557594.pem ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-1032-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed May  1 08:36:20 UTC 2019
+
+  System load:  0.0               Processes:           103
+  Usage of /:   27.0% of 7.69GB   Users logged in:     1
+  Memory usage: 25%               IP address for eth0: 172.31.24.74
+  Swap usage:   0%
+
+ * Ubuntu's Kubernetes 1.14 distributions can bypass Docker and use containerd
+   directly, see https://bit.ly/ubuntu-containerd or try it now with
+
+     snap install microk8s --classic
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+73 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Wed May  1 08:23:19 2019 from 110.21.43.246
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-24-74:~$ sed -n '5,10p' chapter-11-regex--structure.pdb 
+REMARK NCBI PDB FORMAT VERSION 5.0
+SEQRES 1 A  162  MET ARG ILE LEU VAL LEU GLY VAL GLY ASN
+SEQRES 2 A  162  THR ASP GLU ALA ILE GLY VAL ARG ILE VAL
+SEQRES 3 A  162  GLU GLN ARG TYR ILE LEU PRO ASP TYR VAL
+SEQRES 4 A  162  ASP GLY GLY THR ALA GLY MET GLU LEU LEU
+HELIX  1 hel ILE A   18  GLN A   28
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb | sed -n '5,10p'
+     5	REMARK NCBI PDB FORMAT VERSION 5.0
+     6	SEQRES 1 A  162  MET ARG ILE LEU VAL LEU GLY VAL GLY ASN
+     7	SEQRES 2 A  162  THR ASP GLU ALA ILE GLY VAL ARG ILE VAL
+     8	SEQRES 3 A  162  GLU GLN ARG TYR ILE LEU PRO ASP TYR VAL
+     9	SEQRES 4 A  162  ASP GLY GLY THR ALA GLY MET GLU LEU LEU
+    10	HELIX  1 hel ILE A   18  GLN A   28
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb | sed 'MET'd'
+> nl chapter-11-regex--structure.pdb | sed 'METd'
+> nl chapter-11-regex--structure.pdb | sed 'MET'd'
+nl chapter-11-regex--structure.pdb | sed 'MET/d'
+sed: -e expression #1, char 1: unknown command: `M'
+sed: -e expression #1, char 1: unknown command: `M'
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb | sed '/MET/d'
+     1	HEADER  Hydrogenase                     23-Mar-99   1CFZ
+     2	COMPND  Hydrogenase Maturating Endopeptidase Hybd From
+     3	SOURCE  ORGANISM_SCIENTIFIC: Escherichia coli
+     4	AUTHOR  Fritsche, Paschos, Beisel, Boeck & Huber
+     5	REMARK NCBI PDB FORMAT VERSION 5.0
+     7	SEQRES 2 A  162  THR ASP GLU ALA ILE GLY VAL ARG ILE VAL
+     8	SEQRES 3 A  162  GLU GLN ARG TYR ILE LEU PRO ASP TYR VAL
+    10	HELIX  1 hel ILE A   18  GLN A   28
+    11	HELIX  2 hel PRO A   92  THR A  107
+    12	HELIX  3 hel ILE A  138  SER A  152
+    13	SHEET  1 str ARG A    2  ASN A  10
+    14	SHEET  2 str ARG A   29  LEU A  32
+    15	SHEET  3 str TYR A   35  THR A  43
+       
+ubuntu@ip-172-31-24-74:~$ packet_write_wait: Connection to 13.55.205.38 port 22: Broken pipe
+Irhas-MacBook-Pro:890 apple$ ssh -i 45557594.pem ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-1032-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed May  1 09:00:45 UTC 2019
+
+  System load:  0.0               Processes:           103
+  Usage of /:   27.0% of 7.69GB   Users logged in:     1
+  Memory usage: 25%               IP address for eth0: 172.31.24.74
+  Swap usage:   0%
+
+ * Ubuntu's Kubernetes 1.14 distributions can bypass Docker and use containerd
+   directly, see https://bit.ly/ubuntu-containerd or try it now with
+
+     snap install microk8s --classic
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+73 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Wed May  1 08:36:21 2019 from 110.21.43.246
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb |sed -n '/HELIX/,/ILE/P'
+    10	HELIX  1 hel ILE A   18  GLN A   28
+    11	HELIX  2 hel PRO A   92  THR A  107
+    12	HELIX  3 hel ILE A  138  SER A  152
+ubuntu@ip-172-31-24-74:~$ packet_write_wait: Connection to 13.55.205.38 port 22: Broken pipe
+Irhas-MacBook-Pro:890 apple$ ssh -i 45557594.pem ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-1032-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed May  1 09:08:14 UTC 2019
+
+  System load:  0.0               Processes:           104
+  Usage of /:   27.0% of 7.69GB   Users logged in:     1
+  Memory usage: 25%               IP address for eth0: 172.31.24.74
+  Swap usage:   0%
+
+ * Ubuntu's Kubernetes 1.14 distributions can bypass Docker and use containerd
+   directly, see https://bit.ly/ubuntu-containerd or try it now with
+
+     snap install microk8s --classic
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+73 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Wed May  1 09:00:46 2019 from 110.21.43.246
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb | sed -n '/HELIX,ILE/p'
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb | sed -n '/HELIX/ILE/P'
+sed: -e expression #1, char 10: extra characters after command
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb | sed -n '/HELIX/ILE/p'
+sed: -e expression #1, char 10: extra characters after command
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb | sed -n '/HELIX/ILE/p'
+sed: -e expression #1, char 10: extra characters after command
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb | sed -npacket_write_wait: Connection to 13.55.205.38 port 22: Broken pipe
+Irhas-MacBook-Pro:890 apple$ ssh -i 45557594.pem ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-1032-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed May  1 10:55:15 UTC 2019
+
+  System load:  0.0               Processes:           97
+  Usage of /:   27.0% of 7.69GB   Users logged in:     1
+  Memory usage: 24%               IP address for eth0: 172.31.24.74
+  Swap usage:   0%
+
+ * Ubuntu's Kubernetes 1.14 distributions can bypass Docker and use containerd
+   directly, see https://bit.ly/ubuntu-containerd or try it now with
+
+     snap install microk8s --classic
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+73 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Wed May  1 09:08:14 2019 from 110.21.43.246
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-24-74:~$ man sed
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb 
+     1	HEADER  Hydrogenase                     23-Mar-99   1CFZ
+     2	COMPND  Hydrogenase Maturating Endopeptidase Hybd From
+     3	SOURCE  ORGANISM_SCIENTIFIC: Escherichia coli
+     4	AUTHOR  Fritsche, Paschos, Beisel, Boeck & Huber
+     5	REMARK NCBI PDB FORMAT VERSION 5.0
+     6	SEQRES 1 A  162  MET ARG ILE LEU VAL LEU GLY VAL GLY ASN
+     7	SEQRES 2 A  162  THR ASP GLU ALA ILE GLY VAL ARG ILE VAL
+     8	SEQRES 3 A  162  GLU GLN ARG TYR ILE LEU PRO ASP TYR VAL
+     9	SEQRES 4 A  162  ASP GLY GLY THR ALA GLY MET GLU LEU LEU
+    10	HELIX  1 hel ILE A   18  GLN A   28
+    11	HELIX  2 hel PRO A   92  THR A  107
+    12	HELIX  3 hel ILE A  138  SER A  152
+    13	SHEET  1 str ARG A    2  ASN A  10
+    14	SHEET  2 str ARG A   29  LEU A  32
+    15	SHEET  3 str TYR A   35  THR A  43
+    16	ATOM 1  C   MET A 1 48.865  25.394  51.393  1.00 54.58 C
+    17	ATOM 2  CA  MET A 1 49.879  24.359  50.932  1.00 59.61 C
+    18	ATOM 3  CB  MET A 1 49.248  23.457  49.877  1.00 62.37 C
+    19	ATOM 4  CE  MET A 1 51.349  24.403  47.765  1.00 71.39 C
+    20	ATOM 5  CG  MET A 1 48.708  24.106  48.629  1.00 66.70 C
+    21	ATOM 6  N   MET A 1 50.347  23.578  52.116  1.00 62.03 N
+    22	ATOM 7  O   MET A 1 47.875  25.011  52.020  1.00 54.99 O
+    23	ATOM 8  SD  MET A 1 49.731  23.948  47.163  1.00 77.15 S
+       
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb |sed '/HELIX ILE/,P'
+sed: -e expression #1, char 13: unexpected `,'
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb |sed '/HELIX ILE/,p'
+sed: -e expression #1, char 13: unexpected `,'
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb |sed '/HELIX/,/ ILE/,p'
+sed: -e expression #1, char 15: unknown command: `,'
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb |sed '/HELIX/,/ILE/,p'
+sed: -e expression #1, char 14: unknown command: `,'
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb |sed -n '/HELIX/,/ ILE/,p'
+sed: -e expression #1, char 15: unknown command: `,'
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb |sed -n '/HELIX/,/ILE/,p'
+sed: -e expression #1, char 14: unknown command: `,'
+ubuntu@ip-172-31-24-74:~$ sed ‘/HELIX/!d; /ILE/!d'
+-bash: !d': event not found
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb |sed ‘/HELIX/!d; /ILE/!d'
+-bash: !d': event not found
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb |sed -n '/HELIX/,/ILE/,p'
+sed: -e expression #1, char 14: unknown command: `,'
+ubuntu@ip-172-31-24-74:~$ packet_write_wait: Connection to 13.55.205.38 port 22: Broken pipe
+Irhas-MacBook-Pro:890 apple$ ssh -i 45557594.pem ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-1032-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed May  1 11:17:53 UTC 2019
+
+  System load:  0.0               Processes:           95
+  Usage of /:   27.0% of 7.69GB   Users logged in:     1
+  Memory usage: 24%               IP address for eth0: 172.31.24.74
+  Swap usage:   0%
+
+ * Ubuntu's Kubernetes 1.14 distributions can bypass Docker and use containerd
+   directly, see https://bit.ly/ubuntu-containerd or try it now with
+
+     snap install microk8s --classic
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+73 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Wed May  1 10:55:16 2019 from 110.21.43.246
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb |sed -e 's/HELIX\(.*\)ILE/\1/'
+     1	HEADER  Hydrogenase                     23-Mar-99   1CFZ
+     2	COMPND  Hydrogenase Maturating Endopeptidase Hybd From
+     3	SOURCE  ORGANISM_SCIENTIFIC: Escherichia coli
+     4	AUTHOR  Fritsche, Paschos, Beisel, Boeck & Huber
+     5	REMARK NCBI PDB FORMAT VERSION 5.0
+     6	SEQRES 1 A  162  MET ARG ILE LEU VAL LEU GLY VAL GLY ASN
+     7	SEQRES 2 A  162  THR ASP GLU ALA ILE GLY VAL ARG ILE VAL
+     8	SEQRES 3 A  162  GLU GLN ARG TYR ILE LEU PRO ASP TYR VAL
+     9	SEQRES 4 A  162  ASP GLY GLY THR ALA GLY MET GLU LEU LEU
+    10	  1 hel  A   18  GLN A   28
+    11	HELIX  2 hel PRO A   92  THR A  107
+    12	  3 hel  A  138  SER A  152
+    13	SHEET  1 str ARG A    2  ASN A  10
+    14	SHEET  2 str ARG A   29  LEU A  32
+    15	SHEET  3 str TYR A   35  THR A  43
+    16	ATOM 1  C   MET A 1 48.865  25.394  51.393  1.00 54.58 C
+    17	ATOM 2  CA  MET A 1 49.879  24.359  50.932  1.00 59.61 C
+    18	ATOM 3  CB  MET A 1 49.248  23.457  49.877  1.00 62.37 C
+    19	ATOM 4  CE  MET A 1 51.349  24.403  47.765  1.00 71.39 C
+    20	ATOM 5  CG  MET A 1 48.708  24.106  48.629  1.00 66.70 C
+    21	ATOM 6  N   MET A 1 50.347  23.578  52.116  1.00 62.03 N
+    22	ATOM 7  O   MET A 1 47.875  25.011  52.020  1.00 54.99 O
+    23	ATOM 8  SD  MET A 1 49.731  23.948  47.163  1.00 77.15 S
+       
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb |sed -e 's/HELIX\(.*\)ILE/\1/!'
+sed: -e expression #1, char 21: unknown option to `s'
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb |sed -e '/HELIX\(.*\)ILE/\1/!'
+sed: -e expression #1, char 17: unknown command: `\'
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb |sed -n '/HELIX\(.*\)ILE/\1/'
+sed: -e expression #1, char 17: unknown command: `\'
+ubuntu@ip-172-31-24-74:~$ nl chapter-11-regex--structure.pdb |sed -n '/HELIX\(.*\)ILE/p'
+    10	HELIX  1 hel ILE A   18  GLN A   28
+    12	HELIX  3 hel ILE A  138  SER A  152
+ubuntu@ip-172-31-24-74:~$ packet_write_wait: Connection to 13.55.205.38 port 22: Broken pipe
+Irhas-MacBook-Pro:890 apple$ ssh -i 45557594.pem ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-1032-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed May  1 12:51:44 UTC 2019
+
+  System load:  0.0               Processes:           94
+  Usage of /:   27.0% of 7.69GB   Users logged in:     1
+  Memory usage: 24%               IP address for eth0: 172.31.24.74
+  Swap usage:   0%
+
+ * Ubuntu's Kubernetes 1.14 distributions can bypass Docker and use containerd
+   directly, see https://bit.ly/ubuntu-containerd or try it now with
+
+     snap install microk8s --classic
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+73 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Wed May  1 11:17:53 2019 from 110.21.43.246
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-24-74:~$ sed '/^He=.*/a ***' chapter-11-regex--structure.pdb 
+HEADER  Hydrogenase                     23-Mar-99   1CFZ
+COMPND  Hydrogenase Maturating Endopeptidase Hybd From
+SOURCE  ORGANISM_SCIENTIFIC: Escherichia coli
+AUTHOR  Fritsche, Paschos, Beisel, Boeck & Huber
+REMARK NCBI PDB FORMAT VERSION 5.0
+SEQRES 1 A  162  MET ARG ILE LEU VAL LEU GLY VAL GLY ASN
+SEQRES 2 A  162  THR ASP GLU ALA ILE GLY VAL ARG ILE VAL
+SEQRES 3 A  162  GLU GLN ARG TYR ILE LEU PRO ASP TYR VAL
+SEQRES 4 A  162  ASP GLY GLY THR ALA GLY MET GLU LEU LEU
+HELIX  1 hel ILE A   18  GLN A   28
+HELIX  2 hel PRO A   92  THR A  107
+HELIX  3 hel ILE A  138  SER A  152
+SHEET  1 str ARG A    2  ASN A  10
+SHEET  2 str ARG A   29  LEU A  32
+SHEET  3 str TYR A   35  THR A  43
+ATOM 1  C   MET A 1 48.865  25.394  51.393  1.00 54.58 C
+ATOM 2  CA  MET A 1 49.879  24.359  50.932  1.00 59.61 C
+ATOM 3  CB  MET A 1 49.248  23.457  49.877  1.00 62.37 C
+ATOM 4  CE  MET A 1 51.349  24.403  47.765  1.00 71.39 C
+ATOM 5  CG  MET A 1 48.708  24.106  48.629  1.00 66.70 C
+ATOM 6  N   MET A 1 50.347  23.578  52.116  1.00 62.03 N
+ATOM 7  O   MET A 1 47.875  25.011  52.020  1.00 54.99 O
+ATOM 8  SD  MET A 1 49.731  23.948  47.163  1.00 77.15 S
+
+ubuntu@ip-172-31-24-74:~$ sed '/^H=.*/a ***' chapter-11-regex--structure.pdb 
+HEADER  Hydrogenase                     23-Mar-99   1CFZ
+COMPND  Hydrogenase Maturating Endopeptidase Hybd From
+SOURCE  ORGANISM_SCIENTIFIC: Escherichia coli
+AUTHOR  Fritsche, Paschos, Beisel, Boeck & Huber
+REMARK NCBI PDB FORMAT VERSION 5.0
+SEQRES 1 A  162  MET ARG ILE LEU VAL LEU GLY VAL GLY ASN
+SEQRES 2 A  162  THR ASP GLU ALA ILE GLY VAL ARG ILE VAL
+SEQRES 3 A  162  GLU GLN ARG TYR ILE LEU PRO ASP TYR VAL
+SEQRES 4 A  162  ASP GLY GLY THR ALA GLY MET GLU LEU LEU
+HELIX  1 hel ILE A   18  GLN A   28
+HELIX  2 hel PRO A   92  THR A  107
+HELIX  3 hel ILE A  138  SER A  152
+SHEET  1 str ARG A    2  ASN A  10
+SHEET  2 str ARG A   29  LEU A  32
+SHEET  3 str TYR A   35  THR A  43
+ATOM 1  C   MET A 1 48.865  25.394  51.393  1.00 54.58 C
+ATOM 2  CA  MET A 1 49.879  24.359  50.932  1.00 59.61 C
+ATOM 3  CB  MET A 1 49.248  23.457  49.877  1.00 62.37 C
+ATOM 4  CE  MET A 1 51.349  24.403  47.765  1.00 71.39 C
+ATOM 5  CG  MET A 1 48.708  24.106  48.629  1.00 66.70 C
+ATOM 6  N   MET A 1 50.347  23.578  52.116  1.00 62.03 N
+ATOM 7  O   MET A 1 47.875  25.011  52.020  1.00 54.99 O
+ATOM 8  SD  MET A 1 49.731  23.948  47.163  1.00 77.15 S
+
+ubuntu@ip-172-31-24-74:~$ sed '/^H:/ s/$/ ***/' chapter-11-regex--structure.pdb 
+HEADER  Hydrogenase                     23-Mar-99   1CFZ
+COMPND  Hydrogenase Maturating Endopeptidase Hybd From
+SOURCE  ORGANISM_SCIENTIFIC: Escherichia coli
+AUTHOR  Fritsche, Paschos, Beisel, Boeck & Huber
+REMARK NCBI PDB FORMAT VERSION 5.0
+SEQRES 1 A  162  MET ARG ILE LEU VAL LEU GLY VAL GLY ASN
+SEQRES 2 A  162  THR ASP GLU ALA ILE GLY VAL ARG ILE VAL
+SEQRES 3 A  162  GLU GLN ARG TYR ILE LEU PRO ASP TYR VAL
+SEQRES 4 A  162  ASP GLY GLY THR ALA GLY MET GLU LEU LEU
+HELIX  1 hel ILE A   18  GLN A   28
+HELIX  2 hel PRO A   92  THR A  107
+HELIX  3 hel ILE A  138  SER A  152
+SHEET  1 str ARG A    2  ASN A  10
+SHEET  2 str ARG A   29  LEU A  32
+SHEET  3 str TYR A   35  THR A  43
+ATOM 1  C   MET A 1 48.865  25.394  51.393  1.00 54.58 C
+ATOM 2  CA  MET A 1 49.879  24.359  50.932  1.00 59.61 C
+ATOM 3  CB  MET A 1 49.248  23.457  49.877  1.00 62.37 C
+ATOM 4  CE  MET A 1 51.349  24.403  47.765  1.00 71.39 C
+ATOM 5  CG  MET A 1 48.708  24.106  48.629  1.00 66.70 C
+ATOM 6  N   MET A 1 50.347  23.578  52.116  1.00 62.03 N
+ATOM 7  O   MET A 1 47.875  25.011  52.020  1.00 54.99 O
+ATOM 8  SD  MET A 1 49.731  23.948  47.163  1.00 77.15 S
+
+ubuntu@ip-172-31-24-74:~$ packet_write_wait: Connection to 13.55.205.38 port 22: Broken pipe
+Irhas-MacBook-Pro:890 apple$ ssh -i 45557594.pem ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-1032-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed May  1 13:08:32 UTC 2019
+
+  System load:  0.0               Processes:           97
+  Usage of /:   27.0% of 7.69GB   Users logged in:     1
+  Memory usage: 24%               IP address for eth0: 172.31.24.74
+  Swap usage:   0%
+
+ * Ubuntu's Kubernetes 1.14 distributions can bypass Docker and use containerd
+   directly, see https://bit.ly/ubuntu-containerd or try it now with
+
+     snap install microk8s --classic
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+73 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Wed May  1 12:51:45 2019 from 110.21.43.246
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-24-74:~$ 
+ubuntu@ip-172-31-24-74:~$       $ sed ’/Photo/,$c\
+>  > SEQ’ chapter-11-regex--structure.pdb 
+$: command not found
+ubuntu@ip-172-31-24-74:~$ sed '/SEQRES/ ,$c\ 
+> SEQ'
+sed: -e expression #1, char 16: unknown command: `S'
+ubuntu@ip-172-31-24-74:~$ sed '-H*/ a ***' chapter-11-regex--structure.pdb 
+sed: invalid option -- 'H'
+Usage: sed [OPTION]... {script-only-if-no-other-script} [input-file]...
+
+  -n, --quiet, --silent
+                 suppress automatic printing of pattern space
+  -e script, --expression=script
+                 add the script to the commands to be executed
+  -f script-file, --file=script-file
+                 add the contents of script-file to the commands to be executed
+  --follow-symlinks
+                 follow symlinks when processing in place
+  -i[SUFFIX], --in-place[=SUFFIX]
+                 edit files in place (makes backup if SUFFIX supplied)
+  -l N, --line-length=N
+                 specify the desired line-wrap length for the `l' command
+  --posix
+                 disable all GNU extensions.
+  -E, -r, --regexp-extended
+                 use extended regular expressions in the script
+                 (for portability use POSIX -E).
+  -s, --separate
+                 consider files as separate rather than as a single,
+                 continuous long stream.
+      --sandbox
+                 operate in sandbox mode.
+  -u, --unbuffered
+                 load minimal amounts of data from the input files and flush
+                 the output buffers more often
+  -z, --null-data
+                 separate lines by NUL characters
+      --help     display this help and exit
+      --version  output version information and exit
+
+If no -e, --expression, -f, or --file option is given, then the first
+non-option argument is taken as the sed script to interpret.  All
+remaining arguments are names of input files; if no input files are
+specified, then the standard input is read.
+
+GNU sed home page: <http://www.gnu.org/software/sed/>.
+General help using GNU software: <http://www.gnu.org/gethelp/>.
+ubuntu@ip-172-31-24-74:~$ sed '/H*/ a ***' chapter-11-regex--structure.pdb 
+HEADER  Hydrogenase                     23-Mar-99   1CFZ
+***
+COMPND  Hydrogenase Maturating Endopeptidase Hybd From
+***
+SOURCE  ORGANISM_SCIENTIFIC: Escherichia coli
+***
+AUTHOR  Fritsche, Paschos, Beisel, Boeck & Huber
+***
+REMARK NCBI PDB FORMAT VERSION 5.0
+***
+SEQRES 1 A  162  MET ARG ILE LEU VAL LEU GLY VAL GLY ASN
+***
+SEQRES 2 A  162  THR ASP GLU ALA ILE GLY VAL ARG ILE VAL
+***
+SEQRES 3 A  162  GLU GLN ARG TYR ILE LEU PRO ASP TYR VAL
+***
+SEQRES 4 A  162  ASP GLY GLY THR ALA GLY MET GLU LEU LEU
+***
+HELIX  1 hel ILE A   18  GLN A   28
+***
+HELIX  2 hel PRO A   92  THR A  107
+***
+HELIX  3 hel ILE A  138  SER A  152
+***
+SHEET  1 str ARG A    2  ASN A  10
+***
+SHEET  2 str ARG A   29  LEU A  32
+***
+SHEET  3 str TYR A   35  THR A  43
+***
+ATOM 1  C   MET A 1 48.865  25.394  51.393  1.00 54.58 C
+***
+ATOM 2  CA  MET A 1 49.879  24.359  50.932  1.00 59.61 C
+***
+ATOM 3  CB  MET A 1 49.248  23.457  49.877  1.00 62.37 C
+***
+ATOM 4  CE  MET A 1 51.349  24.403  47.765  1.00 71.39 C
+***
+ATOM 5  CG  MET A 1 48.708  24.106  48.629  1.00 66.70 C
+***
+ATOM 6  N   MET A 1 50.347  23.578  52.116  1.00 62.03 N
+***
+ATOM 7  O   MET A 1 47.875  25.011  52.020  1.00 54.99 O
+***
+ATOM 8  SD  MET A 1 49.731  23.948  47.163  1.00 77.15 S
+***
+
+***
+ubuntu@ip-172-31-24-74:~$ sed '/H**/ a ***' chapter-11-regex--structure.pdb 
+sed: -e expression #1, char 6: Invalid preceding regular expression
+ubuntu@ip-172-31-24-74:~$ sed '/H/ a ***' chapter-11-regex--structure.pdb 
+HEADER  Hydrogenase                     23-Mar-99   1CFZ
+***
+COMPND  Hydrogenase Maturating Endopeptidase Hybd From
+***
+SOURCE  ORGANISM_SCIENTIFIC: Escherichia coli
+AUTHOR  Fritsche, Paschos, Beisel, Boeck & Huber
+***
+REMARK NCBI PDB FORMAT VERSION 5.0
+SEQRES 1 A  162  MET ARG ILE LEU VAL LEU GLY VAL GLY ASN
+SEQRES 2 A  162  THR ASP GLU ALA ILE GLY VAL ARG ILE VAL
+***
+SEQRES 3 A  162  GLU GLN ARG TYR ILE LEU PRO ASP TYR VAL
+SEQRES 4 A  162  ASP GLY GLY THR ALA GLY MET GLU LEU LEU
+***
+HELIX  1 hel ILE A   18  GLN A   28
+***
+HELIX  2 hel PRO A   92  THR A  107
+***
+HELIX  3 hel ILE A  138  SER A  152
+***
+SHEET  1 str ARG A    2  ASN A  10
+***
+SHEET  2 str ARG A   29  LEU A  32
+***
+SHEET  3 str TYR A   35  THR A  43
+***
+ATOM 1  C   MET A 1 48.865  25.394  51.393  1.00 54.58 C
+ATOM 2  CA  MET A 1 49.879  24.359  50.932  1.00 59.61 C
+ATOM 3  CB  MET A 1 49.248  23.457  49.877  1.00 62.37 C
+ATOM 4  CE  MET A 1 51.349  24.403  47.765  1.00 71.39 C
+ATOM 5  CG  MET A 1 48.708  24.106  48.629  1.00 66.70 C
+ATOM 6  N   MET A 1 50.347  23.578  52.116  1.00 62.03 N
+ATOM 7  O   MET A 1 47.875  25.011  52.020  1.00 54.99 O
+ATOM 8  SD  MET A 1 49.731  23.948  47.163  1.00 77.15 S
+
+ubuntu@ip-172-31-24-74:~$ sed '/^H/ a ***' chapter-11-regex--structure.pdb 
+HEADER  Hydrogenase                     23-Mar-99   1CFZ
+***
+COMPND  Hydrogenase Maturating Endopeptidase Hybd From
+SOURCE  ORGANISM_SCIENTIFIC: Escherichia coli
+AUTHOR  Fritsche, Paschos, Beisel, Boeck & Huber
+REMARK NCBI PDB FORMAT VERSION 5.0
+SEQRES 1 A  162  MET ARG ILE LEU VAL LEU GLY VAL GLY ASN
+SEQRES 2 A  162  THR ASP GLU ALA ILE GLY VAL ARG ILE VAL
+SEQRES 3 A  162  GLU GLN ARG TYR ILE LEU PRO ASP TYR VAL
+SEQRES 4 A  162  ASP GLY GLY THR ALA GLY MET GLU LEU LEU
+HELIX  1 hel ILE A   18  GLN A   28
+***
+HELIX  2 hel PRO A   92  THR A  107
+***
+HELIX  3 hel ILE A  138  SER A  152
+***
+SHEET  1 str ARG A    2  ASN A  10
+SHEET  2 str ARG A   29  LEU A  32
+SHEET  3 str TYR A   35  THR A  43
+ATOM 1  C   MET A 1 48.865  25.394  51.393  1.00 54.58 C
+ATOM 2  CA  MET A 1 49.879  24.359  50.932  1.00 59.61 C
+ATOM 3  CB  MET A 1 49.248  23.457  49.877  1.00 62.37 C
+ATOM 4  CE  MET A 1 51.349  24.403  47.765  1.00 71.39 C
+ATOM 5  CG  MET A 1 48.708  24.106  48.629  1.00 66.70 C
+ATOM 6  N   MET A 1 50.347  23.578  52.116  1.00 62.03 N
+ATOM 7  O   MET A 1 47.875  25.011  52.020  1.00 54.99 O
+ATOM 8  SD  MET A 1 49.731  23.948  47.163  1.00 77.15 S
+
+ubuntu@ip-172-31-24-74:~$ packet_write_wait: Connection to 13.55.205.38 port 22: Broken pipe
+Irhas-MacBook-Pro:890 apple$ ssh -i 45557594.pem ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-1032-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu May  2 10:10:07 UTC 2019
+
+  System load:  0.0               Processes:           88
+  Usage of /:   27.0% of 7.69GB   Users logged in:     0
+  Memory usage: 22%               IP address for eth0: 172.31.24.74
+  Swap usage:   0%
+
+ * Ubuntu's Kubernetes 1.14 distributions can bypass Docker and use containerd
+   directly, see https://bit.ly/ubuntu-containerd or try it now with
+
+     snap install microk8s --classic
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+78 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Wed May  1 13:08:33 2019 from 110.21.43.246
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-24-74:~$ ls
+SEQ’  chapter-11-regex--structure.pdb  dricciardo.txt  tutes.txt
+ubuntu@ip-172-31-24-74:~$ sed '/SEQRES/c\SEQ' chapter-11-regex--structure.pdb 
+HEADER  Hydrogenase                     23-Mar-99   1CFZ
+COMPND  Hydrogenase Maturating Endopeptidase Hybd From
+SOURCE  ORGANISM_SCIENTIFIC: Escherichia coli
+AUTHOR  Fritsche, Paschos, Beisel, Boeck & Huber
+REMARK NCBI PDB FORMAT VERSION 5.0
+SEQ
+SEQ
+SEQ
+SEQ
+HELIX  1 hel ILE A   18  GLN A   28
+HELIX  2 hel PRO A   92  THR A  107
+HELIX  3 hel ILE A  138  SER A  152
+SHEET  1 str ARG A    2  ASN A  10
+SHEET  2 str ARG A   29  LEU A  32
+SHEET  3 str TYR A   35  THR A  43
+ATOM 1  C   MET A 1 48.865  25.394  51.393  1.00 54.58 C
+ATOM 2  CA  MET A 1 49.879  24.359  50.932  1.00 59.61 C
+ATOM 3  CB  MET A 1 49.248  23.457  49.877  1.00 62.37 C
+ATOM 4  CE  MET A 1 51.349  24.403  47.765  1.00 71.39 C
+ATOM 5  CG  MET A 1 48.708  24.106  48.629  1.00 66.70 C
+ATOM 6  N   MET A 1 50.347  23.578  52.116  1.00 62.03 N
+ATOM 7  O   MET A 1 47.875  25.011  52.020  1.00 54.99 O
+ATOM 8  SD  MET A 1 49.731  23.948  47.163  1.00 77.15 S
+
+ubuntu@ip-172-31-24-74:~$ 

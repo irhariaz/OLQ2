@@ -1,0 +1,125 @@
+Last login: Wed May  1 17:17:39 on ttys001
+192-168-1-109:890 apple$ ssh -i 45557594.pem ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-1032-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu May  2 10:16:39 UTC 2019
+
+  System load:  0.0               Processes:           91
+  Usage of /:   27.0% of 7.69GB   Users logged in:     1
+  Memory usage: 23%               IP address for eth0: 172.31.24.74
+  Swap usage:   0%
+
+ * Ubuntu's Kubernetes 1.14 distributions can bypass Docker and use containerd
+   directly, see https://bit.ly/ubuntu-containerd or try it now with
+
+     snap install microk8s --classic
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+78 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Thu May  2 10:10:08 2019 from 60.242.174.92
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-24-74:~$ ls
+SEQ’  chapter-11-regex--structure.pdb  dricciardo.txt  tutes.txt
+ubuntu@ip-172-31-24-74:~$ logout
+Connection to ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com closed.
+192-168-1-109:890 apple$ ls
+45557594.pem			jabberwocky.txt
+chapter-11-regex--structure.pdb
+192-168-1-109:890 apple$ scp -i 45557594.pem jabberwocky.txt ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com:
+jabberwocky.txt                               100% 1472    34.4KB/s   00:00    
+192-168-1-109:890 apple$ 
+192-168-1-109:890 apple$ ls
+45557594.pem			jabberwocky.txt
+chapter-11-regex--structure.pdb
+192-168-1-109:890 apple$ ssh -i 45557594.pem ubuntu@ec2-13-55-205-38.ap-southeast-2.compute.amazonaws.com
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-1032-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu May  2 10:18:54 UTC 2019
+
+  System load:  0.0               Processes:           92
+  Usage of /:   27.0% of 7.69GB   Users logged in:     1
+  Memory usage: 23%               IP address for eth0: 172.31.24.74
+  Swap usage:   0%
+
+ * Ubuntu's Kubernetes 1.14 distributions can bypass Docker and use containerd
+   directly, see https://bit.ly/ubuntu-containerd or try it now with
+
+     snap install microk8s --classic
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+78 packages can be updated.
+0 updates are security updates.
+
+
+*** System restart required ***
+Last login: Thu May  2 10:16:39 2019 from 60.242.174.92
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-24-74:~$ ls
+SEQ’                             dricciardo.txt   tutes.txt
+chapter-11-regex--structure.pdb  jabberwocky.txt
+ubuntu@ip-172-31-24-74:~$ sed '/^[[:space:]]*$/d' jabberwocky.txt 
+------------------------------------------------------------
+`Twas brillig, and the slithy toves
+Did gyre and gimble in the wabe:
+All mimsy were the borogoves,
+And the mome raths outgrabe.
+------------------------------------------------------------
+"Beware the Jabberwock, my son!
+The jaws that bite, the claws that catch!
+Beware the Jubjub bird, and shun
+The frumious Bandersnatch!"
+------------------------------------------------------------
+He took his vorpal sword in hand:
+Long time the manxome foe he sought
+So rested he by the Tumtum tree,
+And stood awhile in thought.
+------------------------------------------------------------
+And, as in uffish thought he stood,
+The Jabberwock, with eyes of flame,
+Came whiffling through the tulgey wood,
+And burbled as it came!
+------------------------------------------------------------
+One, two! One, two! And through and through
+The vorpal blade went snicker-snack!
+He left it dead, and with its head
+He went galumphing back.
+------------------------------------------------------------
+"And, has thou slain the Jabberwock?
+Come to my arms, my beamish boy!
+O frabjous day! Callooh! Callay!'
+He chortled in his joy.
+------------------------------------------------------------
+`Twas brillig, and the slithy toves
+Did gyre and gimble in the wabe;
+All mimsy were the borogoves,
+And the mome raths outgrabe.
+------------------------------------------------------------
+ubuntu@ip-172-31-24-74:~$ 
